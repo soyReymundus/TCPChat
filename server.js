@@ -3,7 +3,7 @@ const server = net.createServer();
 const users = new Map();
 
 server.on("connection", (socket) => {
-    let ip = socket.address().address + Math.round(Math.random() * 9999);
+    let ip = socket.address().address;
 
     if (!users.has(ip)) {
         socket.write("[Server] Por favor dinos tu nombre.");
