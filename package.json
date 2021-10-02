@@ -1,0 +1,24 @@
+{
+  "name": "tcpchat",
+  "version": "1.0.0",
+  "description": "Un simple chat TCP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyReymundus/TCPChat.git"
+  },
+  "keywords": [
+    "TCP",
+    "Char",
+    "TCPChat"
+  ],
+  "author": "Reymundus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soyReymundus/TCPChat/issues"
+  },
+  "homepage": "https://github.com/soyReymundus/TCPChat#readme"
+}
